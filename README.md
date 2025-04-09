@@ -115,6 +115,8 @@ In the second level, the map is set in the downtown area of Dublin. Compared to 
 
 <img src="src/main/resources/screenshots/level2.png" alt="level2" style="zoom:25%;" />
 
+---
+
 ### Personal Contributions
 As a core contributor, I was responsible for the following areas:
 - Designed and implemented the core game logic, including the rules for level progression.
