@@ -43,7 +43,7 @@ land-of-lustrous/
 │           ├── screenshots/               # Images for README.md
 │           ├── audio/                     # Background music files
 │           ├── images/                    # Visual assets for maps, icons, characters
-│           ├── maps.map1/                 # Text-based map and transport data files
+│           ├── map_data/                  # Text-based map and transport data files
 │           ├── game_records1.txt          # Local game record for level 1
 │           ├── game_records2.txt          # Local game record for level 2
 │           └── style.css                  # UI style definitions (JavaFX CSS)
@@ -81,7 +81,7 @@ Each level lasts **60 seconds**, and players have a limited amount of **Carbon H
 
 #### **●  Route Selection with Carbon Cost**
 
-Upon clicking a gem, players are presented with three possible routes, each featuring different transport modes (e.g., walking, biking, driving) and corresponding Carbon HP costs based on travel speed. Players must make smart choices to balance limited time and environmental impact. If none of the routes are ideal, players may also choose to skip the current gem and wait for the next one to appear.
+Upon clicking a gem, players are presented with three possible routes, each featuring different transport modes — including walking, biking, driving, and taking the bus — with corresponding Carbon HP costs based on travel speed. Players must make smart choices to balance limited time and environmental impact. If none of the routes are ideal, players may also choose to skip the current gem and wait for the next one to appear.
 
 <img src="src/main/resources/screenshots/route_selection.png" alt="route selection" style="zoom:25%;" />
 
@@ -90,6 +90,10 @@ Upon clicking a gem, players are presented with three possible routes, each feat
 After selecting a route, the player character automatically travels to the gem using the chosen transport modes. Upon arrival, the gem is collected, Carbon HP is deducted accordingly, and the player’s status (gems number, carbon HP) is updated in real time.
 
 <img src="src/main/resources/screenshots/bike.gif" alt="bike" style="zoom:37%;" />
+
+
+
+<img src="src/main/resources/screenshots/car.gif" alt="car" style="zoom:37%;" />
 
 
 
@@ -104,6 +108,12 @@ Failing to meet the goal brings up an end scene. Players can choose to restart t
 <img src="src/main/resources/screenshots/fail.png" alt="fail" style="zoom:25%;" />
 
 
+
+#### ● Advanced Level: Downtown Map with Richer Transport Options
+
+In the second level, the map is set in the downtown area of Dublin. Compared to the campus map, this level introduces a wider variety of transport options, including LUAS (light rail). Gems in this level appear for a shorter duration, requiring players to react quickly and make timely decisions to succeed.
+
+<img src="src/main/resources/screenshots/level2.png" alt="level2" style="zoom:25%;" />
 
 ### Personal Contributions
 
