@@ -8,7 +8,7 @@ The game includes two playable levels based on simplified real maps of Dublin. P
 
 The system is built entirely with Java and JavaFX, following the MVC architecture. The game logic, UI interactions, map rendering, and route animations are all implemented in Java. Game records are saved locally via text files, with ranking data dynamically parsed and displayed in the interface.
 
-This project was originally developed in an academic collaboration and later independently refactored and enhanced. I was responsible for the overall game logic, MVC and restructuring and interactive UI design. A detailed breakdown of my contributions is provided in the final section of this document.
+This project was originally developed in an academic collaboration by Sha Luo, Zhiteng Tan, Yuhan Hu, Bingyang Li and Han Zheng. I was responsible for the overall game logic, MVC restructuring, and interactive UI design. A detailed breakdown of my contributions is provided in the final section of this document.  In this updated version, I also reorganized the project structure, fixed missing fonts, and added a detailed README document.
 
 ---
 
@@ -105,3 +105,33 @@ Failing to meet the goal brings up an end scene. Players can choose to restart t
 
 ### Personal Contributions
 
+- Designed and implemented the core game logic, including the rules for level progression.
+- Refactored and modularized multiple scenes and their corresponding controllers according to MVC architecture.
+
+- Implemented key gameplay mechanics:
+
+  - Players can choose between different levels (maps), and each level can be replayed after completion or failure.
+  - 60-second countdown timer per level.
+
+  - Gems appear continuously and randomly on the map.
+
+  - Clicking on a gem displays route options with transport modes, carbon HP cost, and time.
+
+  - Players can choose to skip a gem and wait for the next one.
+
+  - Player moves at different speeds based on the selected transport mode, and their appearance dynamically changes to match the selected transportation method (e.g., walking, biking, driving).
+
+  - Collecting a gem reduces the player’s remaining Carbon HP according to the selected route.
+
+  - Added user input feature to allow players to enter and display their names.
+
+  - Enabled local saving and displaying of game scores in `GamePassScene` and `GameOverScene`.
+
+- Designed nearly all visual aspects of the game, including:
+
+  - Layout and structure for all scenes
+  - `style.css` for UI styling
+
+  - In-game maps, background assets, and various game visuals
+
+- Created and structured `.txt` map files to encode roads, transport points, and terrain types for level rendering and route planning.
