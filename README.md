@@ -8,7 +8,7 @@ The game includes two playable levels based on simplified real maps of Dublin. P
 
 The system is built entirely with Java and JavaFX, following the MVC architecture. The game logic, UI interactions, map rendering, and route animations are all implemented in Java. Game records are saved locally via text files, with ranking data dynamically parsed and displayed in the interface.
 
-This project was originally developed in an academic collaboration by Sha Luo, Zhiteng Tan, Yuhan Hu, Bingyang Li and Han Zheng. I was responsible for the overall game logic, MVC restructuring, and interactive UI design. A detailed breakdown of my contributions is provided in the final section of this document.  In this updated version, I also reorganized the project structure, fixed missing fonts, and added a detailed README document.
+This project was originally developed in an academic collaboration by Sha Luo, Zhiteng Tan, Yuhan Hu, Bingyang Li and Han Zheng. As a core contributor, I was responsible for the overall game logic, MVC restructuring, and interactive UI design. A detailed breakdown of my contributions is provided in the final section of this document.  In this updated version, I also reorganized the project structure, fixed missing fonts, and added a detailed README document.
 
 ---
 
@@ -116,7 +116,7 @@ In the second level, the map is set in the downtown area of Dublin. Compared to 
 <img src="src/main/resources/screenshots/level2.png" alt="level2" style="zoom:25%;" />
 
 ### Personal Contributions
-
+As a core contributor, I was responsible for the following areas:
 - Designed and implemented the core game logic, including the rules for level progression.
 - Refactored and modularized multiple scenes and their corresponding controllers according to MVC architecture.
 
