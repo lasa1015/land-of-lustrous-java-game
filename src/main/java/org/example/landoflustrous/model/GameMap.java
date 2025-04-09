@@ -110,30 +110,6 @@ public class GameMap {
         }
     }
 
-//    private void parseTransLine(String filePath, PublicTransLine line) throws IOException {
-//        try (InputStream is = getClass().getResourceAsStream(filePath)) {
-//            if (is == null) {
-//                throw new FileNotFoundException("Cannot find resource " + filePath);
-//            }
-//            try (BufferedReader br = new BufferedReader(new InputStreamReader(is))) {
-//                String lineContent;
-//                int y = 0;
-//                while ((lineContent = br.readLine()) != null) {
-//                    for (int x = 0; x < lineContent.length(); x++) {
-//                        int index = Character.getNumericValue(lineContent.charAt(x));
-//                        if (index != 0) {
-//                            line.addTile(getTile(x, y));
-//                            if (index == 8 || index == 9) {
-//                                line.getStations().add(new Station(x, y, line.getLineCode()));
-//                            }
-//                        }
-//                    }
-//                    y++;
-//                }
-//            }
-//        }
-//    }
-
     private void parseTransLine(String filePath, PublicTransLine line) throws IOException {
         try (InputStream is = getClass().getResourceAsStream(filePath)) {
             if (is == null) {
@@ -236,18 +212,5 @@ public class GameMap {
             System.out.println();
         }
     }
-
-//    public List<Tile> getPassableTiles() {
-//        List<Tile> passableTiles = new ArrayList<>();
-//        for (List<Tile> row : tileGrid) {
-//            for (Tile tile : row) {
-//                if (tile.isPassable()) {
-//                    passableTiles.add(tile);
-//                }
-//            }
-//        }
-//        return passableTiles;
-//    }
-
-
 }
+

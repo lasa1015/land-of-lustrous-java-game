@@ -53,13 +53,13 @@ public class MapViewerScene {
 
     static {
         levelPathMapping.put("Level 1", Map.of(
-                "map", "/maps/map1/level1/map.txt",
-                "rail", List.of("/maps/map1/level1/rail.txt"),
-                "bus", List.of("/maps/map1/level1/bus1.txt", "/maps/map1/level1/bus2.txt")));
+                "map", "/map_data/level1/map.txt",
+                "rail", List.of("/map_data/level1/rail.txt"),
+                "bus", List.of("/map_data/level1/bus1.txt", "/map_data/level1/bus2.txt")));
         levelPathMapping.put("Level 2", Map.of(
-                "map", "/maps/map1/level2/map.txt",
-                "rail", List.of("/maps/map1/level2/rail1.txt", "/maps/map1/level2/rail2.txt"),
-                "bus", List.of("/maps/map1/level2/bus1.txt", "/maps/map1/level2/bus2.txt")));
+                "map", "/map_data/level2/map.txt",
+                "rail", List.of("/map_data/level2/rail1.txt", "/map_data/level2/rail2.txt"),
+                "bus", List.of("/map_data/level2/bus1.txt", "/map_data/level2/bus2.txt")));
     }
 
 
