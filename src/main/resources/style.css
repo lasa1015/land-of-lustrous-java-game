@@ -1,0 +1,231 @@
+/*-------------------START SCENE------------------------ */
+
+
+.btn_play {
+    -fx-background-image: url("images/play.png"); /* 背景图片的路径 */
+    -fx-background-repeat: no-repeat; /* 图片不重复 */
+    -fx-background-position: center; /* 图片居中 */
+    -fx-background-size: cover; /* 图片覆盖整个按钮区域 */
+    -fx-background-color: transparent; /* 深橙色背景 */
+    -fx-text-fill: white; /* 白色文本 */
+    -fx-font-size: 16px;
+    -fx-pref-width: 100px; /* 首选宽度为100像素 */
+    -fx-pref-height: 60px;
+}
+
+.btn_exit {
+    -fx-background-image: url("images/off.png"); /* 背景图片的路径 */
+    -fx-background-repeat: no-repeat; /* 图片不重复 */
+    -fx-background-position: center; /* 图片居中 */
+    -fx-background-size: cover; /* 图片覆盖整个按钮区域 */
+    -fx-background-color: transparent; /* 深橙色背景 */
+    -fx-text-fill: white; /* 白色文本 */
+    -fx-font-size: 16px;
+    -fx-pref-width: 80px; /* 首选宽度为100像素 */
+    -fx-pref-height: 60px; /* 首选高度为50像素 */
+
+    -fx-background-radius: 5; /* 圆角半径为5像素，让按钮看起来更圆滑 */
+}
+
+
+.label {
+    -fx-text-fill: #ffffff; /* 钢蓝色文本 */
+    -fx-font-size: 20px; /* 字体大小16像素 */
+    -fx-font-weight: bold; /* 字体加粗 */
+    -fx-font-family: "Arial"; /* 字体家族为Arial */
+    -fx-text-alignment: center; /* 文本居中 */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 0, 0); /* 添加高斯模糊投影效果 */
+}
+
+
+.intro {
+    -fx-text-fill: #ffffff; /* 钢蓝色文本 */
+    -fx-font-size: 16px; /* 字体大小16像素 */
+    -fx-font-weight: bold; /* 字体加粗 */
+    -fx-font-family: "Arial"; /* 字体家族为Arial */
+    -fx-text-alignment: center; /* 文本居中 */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 0, 0); /* 添加高斯模糊投影效果 */
+}
+
+
+/*-------------------LEVEL SELECTION SCENE------------------------ */
+
+.return {
+
+    -fx-background-image: url("images/btn_return.png"); /* 背景图片的路径 */
+    -fx-background-repeat: no-repeat; /* 图片不重复 */
+    -fx-background-position: center; /* 图片居中 */
+    -fx-background-color: transparent;
+    -fx-background-size: cover;
+    -fx-pref-width: 150px; /* 首选宽度为100像素 */
+    -fx-pref-height: 62px;
+}
+
+
+/*-------------------MAP SCENE------------------------ */
+
+.label_map {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: navy;
+    -fx-padding: 6 0 0 0;
+}
+
+.label_time {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #c00000;
+    -fx-padding: 6 0 0 40;
+}
+
+.label_carbon {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #007326;
+    -fx-padding: 6 0 0 40;
+}
+
+.route-button {
+    -fx-font-family: "Arial"; /* 字体家族为Arial */
+    -fx-font-weight: bold;
+    -fx-font-size: 17px;
+    -fx-padding: 10px 10px;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #18833a;
+    -fx-pref-width: 500px; /* 首选宽度为100像素 */
+    -fx-pref-height: 40px; /* 首选高度为50像素 */
+}
+
+.route-title {
+    -fx-font-family: 'Oswald';
+    -fx-font-size: 26px;
+    -fx-padding: 10px 20px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+
+}
+
+
+.skip {
+    -fx-font-family: 'Oswald';
+    -fx-font-size: 26px;
+    -fx-padding: 10px 20px;
+    -fx-background-color: #f15117;
+    -fx-text-fill: white;
+
+}
+
+/*-------------------SOCREBOARD SCENE------------------------ */
+
+.scoreboard_root {
+    -fx-background-image: url('images/scoreboard.png');
+    -fx-background-size: 1300 800;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+.score_title {
+    -fx-font-family: 'Oswald';
+    -fx-font-weight: bold;
+    -fx-font-size: 45px; /* 字体大小24像素 */
+    -fx-fill: #006400; /* 暗石板灰色文本 */
+}
+
+
+.score {
+
+    -fx-font-family: 'Courier New';
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-fill: #006400; /* DARKGREEN的十六进制代码 */
+}
+
+
+.rectangle {
+    -fx-stroke-width: 3;
+    -fx-stroke: #006400; /* DARKGREEN的十六进制代码 */
+    -fx-fill: #fdfbf2;
+}
+
+.line {
+    -fx-stroke: #006400; /* DARKGREEN的十六进制代码 */
+    -fx-stroke-width: 3;
+}
+
+.eco_tip {
+    -fx-font-family: 'Oswald';
+    /*-fx-font-weight: bold;*/
+    -fx-font-size: 24px;
+    -fx-fill: #006400; /* DARKGREEN的十六进制代码 */
+}
+
+
+.play_again {
+    -fx-background-image: url("images/playagain.png"); /* 背景图片的路径 */
+    -fx-background-repeat: no-repeat; /* 图片不重复 */
+    -fx-background-position: center; /* 图片居中 */
+    -fx-background-color: transparent;
+    -fx-background-size: cover;
+    -fx-pref-width: 180px; /* 首选宽度为100像素 */
+    -fx-pref-height: 63px; /* 首选高度为50像素 */
+}
+
+
+.next_level {
+    -fx-background-image: url("images/nextlevel.png"); /* 背景图片的路径 */
+    -fx-background-repeat: no-repeat; /* 图片不重复 */
+    -fx-background-position: center; /* 图片居中 */
+    -fx-background-color: transparent;
+    -fx-background-size: cover;
+    -fx-pref-width: 180px; /* 首选宽度为100像素 */
+    -fx-pref-height: 63px; /* 首选高度为50像素 */
+}
+
+
+.exit {
+    -fx-background-image: url("images/close.png"); /* 背景图片的路径 */
+    -fx-background-repeat: no-repeat; /* 图片不重复 */
+    -fx-background-position: center; /* 图片居中 */
+    -fx-background-color: transparent;
+    -fx-background-size: cover;
+    -fx-pref-width: 70px; /* 首选宽度为100像素 */
+    -fx-pref-height: 65px; /* 首选高度为50像素 */
+}
+
+
+.exit_small {
+    -fx-background-image: url("images/close2.png"); /* 背景图片的路径 */
+    -fx-background-repeat: no-repeat; /* 图片不重复 */
+    -fx-background-position: center; /* 图片居中 */
+    -fx-background-color: transparent;
+    -fx-background-size: cover;
+    -fx-pref-width: 90px; /* 首选宽度为100像素 */
+    -fx-pref-height: 43px; /* 首选高度为50像素 */
+    -fx-margin-right: 20px; /* 右外边距20像素 */
+}
+
+
+.header-text, .content-text {
+    font-family: 'Courier New', Courier, monospace; /* 使用等宽字体 */
+    /* 其他样式 */
+}
+
+/*-------------------GAMEOVER SCENE------------------------ */
+.gameover_title {
+    -fx-font-family: 'Oswald';
+    -fx-font-weight: bold;
+    -fx-font-size: 45px; /* 字体大小24像素 */
+    -fx-fill: #EE4B2B; /* 暗石板灰色文本 */
+}
+
+.gameover_root {
+    -fx-background-image: url('images/gameover.jpeg');
+    -fx-background-size: 1300 800;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+/*-------------------GENERAL BUTTON------------------------ */
+.button {
+    -fx-cursor: hand;
+}
