@@ -91,6 +91,8 @@ After selecting a route, the player character automatically travels to the gem u
 
 <img src="src/main/resources/screenshots/bike.gif" alt="bike" style="zoom:37%;" />
 
+
+
 #### ● Pass & Result Screen with Leaderboard
 
 If players collect 5 or more gems, they pass the level. The result screen shows their performance and a local leaderboard. Players who pass can also proceed to the next level. Additionally, a random eco-friendly tip is displayed to enrich the player’s environmental knowledge and promote sustainability awareness.
@@ -134,4 +136,4 @@ Failing to meet the goal brings up an end scene. Players can choose to restart t
 
   - In-game maps, background assets, and various game visuals
 
-- Created and structured `.txt` map files to encode roads, transport points, and terrain types for level rendering and route planning.
+- Designed and structured `.txt` map files to encode roads, transport points, and terrain types for level rendering and route planning.
