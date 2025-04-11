@@ -95,7 +95,7 @@ After selecting a route, the player character automatically travels to the gem u
 
 - Bike
 
-<img src="src/main/resources/screenshots/bike.gif" alt="bike" style="zoom:37%;" />
+  <img src="src/main/resources/screenshots/bike.gif" alt="bike" style="zoom:37%;" />
 
 - Bus
 
@@ -103,8 +103,7 @@ After selecting a route, the player character automatically travels to the gem u
 
 - Car
 
-
-<img src="src/main/resources/screenshots/car.gif" alt="car" style="zoom:37%;" />
+  <img src="src/main/resources/screenshots/car.gif" alt="car" style="zoom:37%;" />
 
 
 
