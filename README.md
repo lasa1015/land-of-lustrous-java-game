@@ -89,8 +89,19 @@ Upon clicking a gem, players are presented with three possible routes, each feat
 
 After selecting a route, the player character automatically travels to the gem using the chosen transport modes. Upon arrival, the gem is collected, Carbon HP is deducted accordingly, and the player’s status (gems number, carbon HP) is updated in real time.
 
+- Walk
+
+  <img src="src/main/resources/screenshots/walk.gif" alt="walk" style="zoom:37%;" />
+
+- Bike
+
 <img src="src/main/resources/screenshots/bike.gif" alt="bike" style="zoom:37%;" />
 
+- Bus
+
+  <img src="src/main/resources/screenshots/bus.gif" alt="bus" style="zoom:37%;" />
+
+- Car
 
 
 <img src="src/main/resources/screenshots/car.gif" alt="car" style="zoom:37%;" />
